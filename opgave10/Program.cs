@@ -31,7 +31,6 @@ namespace opgave10
             t2.Ryst();
             t2.Skriv();
 
-        
         }
 
         void Skriv()
@@ -41,7 +40,7 @@ namespace opgave10
         int Ryst()
         {
             værdi = 0;
-            if(!snyd)
+            if (!snyd)
             {
                 værdi = rnd.Next(1, 7);
             }
@@ -49,13 +48,12 @@ namespace opgave10
             {
                 værdi = 6; //Lidt spøjst, men det siger opgaven
             }
-           
+
             return værdi;
         }
-
-
         
 
-
     }
+
+    
 }
