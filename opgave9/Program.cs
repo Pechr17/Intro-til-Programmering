@@ -15,6 +15,13 @@ namespace opgave9
             {
                 Console.WriteLine(element);
             }
+
+            //Løsning med Dictionary
+
+            Dictionary<int, string> samling2 = new Dictionary<int, string>();
+            samling2.Add(1, "halløj"); samling2.Add(9000, "hej"); samling2.Add(3, "Javel");
+
+            Console.WriteLine(samling2[9000]);
         }
     }
 }
