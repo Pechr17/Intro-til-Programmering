@@ -38,7 +38,7 @@ namespace Opgave7
                 Console.WriteLine("*");
             }
         }
-
+      
         void makeCos()
         {
             int row = 1; int column = 0; double rad = 0;
